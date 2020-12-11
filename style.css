@@ -16,7 +16,7 @@ body {
   font-weight: 400;
   height: 100vh;
   color: #333;
-  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  background-image: linear-gradient(to top left, #2b5876 0%, #4e4376 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,12 +54,13 @@ main {
   word-spacing: 2px;
   font-weight: 300;
   margin-bottom: 1rem;
+  color: #7dd14d;
 }
 
 .score {
   font-size: 8rem;
   font-weight: 300;
-  color: #c7365f;
+  color: #7dd14d;
   margin-bottom: auto;
 }
 
@@ -70,10 +71,10 @@ main {
 }
 
 .current {
-  background-color: #c7365f;
+  background-color: #7dd14d;
   opacity: 0.8;
   border-radius: 9px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   width: 65%;
   padding: 2rem;
   text-align: center;
@@ -84,7 +85,7 @@ main {
   text-transform: uppercase;
   margin-bottom: 1rem;
   font-size: 1.7rem;
-  color: #ddd;
+  color: rgb(0, 0, 0);
 }
 
 .current-score {
@@ -191,6 +192,6 @@ main {
 .winner {
   background-color: #2f2f2f;
   font-weight: 700;
-  color: #c7365f;
+  color: #7dd14d;
   border: 1px solid grey;
 }
